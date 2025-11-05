@@ -2,7 +2,7 @@
 <div align="center" display="flex">
 <p>
   <img width="400px" align="center" src="./assets/to-readme/perfil.jpg">
-  <strong> Olá, me chamo João Vitor, tenho 20 anos e sou estudante de Informática.</strong> 
+  <strong>"Oi, eu sou o João!"</strong> 
 </p> 
 </div>
 
