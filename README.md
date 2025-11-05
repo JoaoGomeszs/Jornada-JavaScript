@@ -1,2 +1,1 @@
-# Jornada-JavaScript
-Todo minha jornada aprendendo JavaScript será adicionada aqui.
+<h1 align="center"> JORNADA JAVASCRIPT </h1>
