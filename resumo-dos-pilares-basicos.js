@@ -91,17 +91,26 @@ texto - string
 /*
 ✅O operador de atribuição é usado para definir ou atualizar valores em variáveis.
 Básico:
-let x = 10; // atribui 10 a x
 */
+salario = 2500
 //     Operadores aritméticos
 /*
 ✅Usados para fazer cálculos matemáticos com números.
-let x = 10;
-x += 5; // 15
-x++;    // 16
 */
+let n1 = 10 , n2 = 20;
+console.log(n1+n2);//soma
+console.log(n1-n2);//subtração
+console.log(n1/n2);//divisão
+console.log(n1*n2);//multiplicação
+console.log(10%2);//modulo
 //     Operadores relacionais
 //✅Servem para comparar valores e retornar true ou false. ✅
+console.log(n1 == n2);
+console.log(n1 != n2);
+console.log(n1 > n2);
+console.log(n1 < n2);
+console.log(n1 >= n2);
+console.log(n1 <= n2);
 //     Operadores lógicos
 /*✅Usados para combinar condições e retornar true ou false.
 let idade = 20;
@@ -110,6 +119,12 @@ if (idade >= 18 && idade < 60) {
 }
 ✅
 */
+let altura = 1.2;
+let peso = 80;
+let tipo = "criança";
+console.log(altura > 1.5 && peso < 150 && tipo != "criança");
+console.log(altura > 1.5 || peso < 150 || tipo != "criança");
+console.log(!altura > 1.5 || peso < 150 || tipo != "criança");
 // Estrutura
 //     Estrutura de controle/decisão
 /*
@@ -144,6 +159,12 @@ switch (cor) {
 }
  
 */
+let idadeAluno = 20;
+if(idadeAluno >= 18){
+  console.log("Maior de idade");
+}else{
+  console.log("Menor de idade")
+}
 //     Laços de repetição
 /*
 ✅Usados para executar um bloco de código várias vezes.
@@ -152,14 +173,27 @@ switch (cor) {
 ✅do...while — Executa pelo menos uma vez, depois testa
 ✅for...of — Percorre valores de arrays ou strings
 ✅for...in — Percorre chaves de objetos
- 
- 
 */
+let controle = 1
+while(controle <=10){
+  console.log(controle);
+  controle++
+}
+console.log("----------------------------------------")
+controle = 1
+while(controle <= 10);{
+  console.log(7*controle);
+  controle++;
+}
+
 // Arrays --> vetor
 /*
 ✅Um array (ou vetor) é uma lista de valores armazenados em uma única variável.
 ✅Cada valor tem um índice numérico, começando em 0.
 */
+let animal = "leão";
+animal = "Elefante";
+ let zoologico =['leão' , 'elefante' , 'zebra' , 'ariranha' , 'lobo-guará']
 // Funções personalizadas
 //✅Uma função personalizada é um bloco de código criado pelo programador para executar uma tarefa específica sempre que for chamada.
  
