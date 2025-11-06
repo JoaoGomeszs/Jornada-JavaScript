@@ -194,7 +194,18 @@ while(controle <= 10);{
 let animal = "leão";
 animal = "Elefante";
  let zoologico =['leão' , 'elefante' , 'zebra' , 'ariranha' , 'lobo-guará']
-// Funções personalizadas
+  console.log(zoologico[2]);
+  console.log(zoologico.length);
+
+  let frutas = ['🍎','🍏','🍇','🍐','🚗'];
+  console.log(frutas);
+ // Funções personalizadas
 //✅Uma função personalizada é um bloco de código criado pelo programador para executar uma tarefa específica sempre que for chamada.
- 
- 
+ function mensagem(){
+  console.log("Olá");
+  console.log("Seja bem-vindo");
+  console.log("  :)");
+ }
+
+ mensagem();
+ mensagem();
