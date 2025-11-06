@@ -14,3 +14,22 @@
 <br>
 <br>
 <br>
+<div>
+<h2 align="center">Boas práticas</h2>
+<h3>Quando usar const e let?</h3>
+<ul>
+  <li>Use const por padrão. Indica intenção de não reatribuir a referência. Isso ajuda o motor e quem lê o código.</li>
+  <li>Use let apenas quando a variável será reatribuída (contador de loop, acumuladores, flags).</li>
+</ul>
+  <img width="600px" align="center" src="./assets/to-readme/code-print/const-let.png">
+<h3>Nomes de variáveis claros (sem adivinhação)</h3>
+  <ul>
+    <li>Os nomes devem fazer sentido com o contexto</li>
+    <li>Booleanos como perguntas (valido , aErro)</li>
+    <li>Evite abreviações internas (a não ser padrões amplos como id, url)</li>
+  </ul>
+  <img width="700px" align="center" src="./assets/to-readme/code-print/nome-claro.png">
+</div>
+
+  
+
