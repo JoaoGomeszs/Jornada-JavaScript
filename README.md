@@ -1,7 +1,7 @@
 <h1 align="center"> JORNADA JAVASCRIPT  <img width="100px" align="center" src="./assets/to-readme/javascript-svgrepo-com.svg"> </h1>
 <div align="center" display="flex">
 <p>
-  <img width="400px" align="center" src="./assets/to-readme/perfil.jpg">
+  <img width="400px" align="center" src="./assets/to-readme/pixelart-eu.png">
   <strong>"Oi, eu sou o João!"</strong> 
 </p> 
 </div>
