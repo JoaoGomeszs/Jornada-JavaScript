@@ -32,5 +32,23 @@
   <img width="700px"  src="./assets/to-readme/code-print/nome-claro.png">
 </div>
 
+<br>
+<h2 align="center">Sintaxe básica</h2>
+
+<h3>Caracteres:</h3>
+  <ul>
+    <li>O JavaScript utiliza o conjunto de caracteres <u>Unicode</u>;</li>
+    <li>É uma linguagem <b>case-sensitive</b>, ou seja, diferencia caracteres maiúsculos e minúsculos.</li>
+  </ul>
+
+<h3>Comentários:</h3>
+  <p>
+    No JavaScript, comentários podem ser adicionados ao longo do código das seguintes maneiras:
+  </p>
+  <ul>
+    <li><span style="color:green">// - Para comentários em uma única linha de código</span></li>
+    <li><span style="color:green">/* Para comentários em múltiplas linhas */</span></li>
+  </ul>
+
   
 
