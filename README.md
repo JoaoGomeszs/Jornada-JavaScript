@@ -80,7 +80,7 @@ alert("Hello, World!")
 
 var exemplo_var=0;
 let exemplo_let="Exemplo";
-const EXEMPLO_CONST=true 
+const EXEMPLO_CONST=true;
 ```
 
   
