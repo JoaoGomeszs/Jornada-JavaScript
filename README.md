@@ -37,7 +37,7 @@
 
 <h3>Caracteres:</h3>
   <ul>
-    <li>O JavaScript utiliza o conjunto de caracteres <u>Unicode</u>;</li>
+    <li>O JavaScript utiliza o conjunto de caracteres <b>Unicode</b>;</li>
     <li>É uma linguagem <b>case-sensitive</b>, ou seja, diferencia caracteres maiúsculos e minúsculos.</li>
   </ul>
 
@@ -45,10 +45,12 @@
   <p>
     No JavaScript, comentários podem ser adicionados ao longo do código das seguintes maneiras:
   </p>
-  <ul>
-    <li><span style="color:green">// - Para comentários em uma única linha de código</span></li>
-    <li><span style="color:green">/* Para comentários em múltiplas linhas */</span></li>
-  </ul>
+
+```javascript
+// - Para comentários em uma única linha de código
+
+/* Para comentários em múltiplas linhas */
+```
 
   
 
