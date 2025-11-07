@@ -52,6 +52,18 @@
 /* - Para comentários em múltiplas linhas */
 ```
 
+<h3>Hello, World!</h3>
+  <p>
+    Ao aprender uma nova linguagem de programação, o "Hello, World!", ou "Olá, Mundo!" é um primeiro passo extremamente importante!<br><br>
+    O "Hello, World!" se refere a um programa que possui a simples função de exibir uma mensagem para o usuário, e pode ser feito no JavaScript de algumas formas, como por exemplo:
+  </p>
+
+  ```javascript
+console.log("Hello, World!")
+
+alert("Hello, World!")
+```
+
 <h2 align="center">Declarações</h2>
   <h3>Tipos de declarações</h3>
     <p>
@@ -60,8 +72,16 @@
     <ul>
       <li><b>var</b>: Forma tradicional de se declarar uma variável, mas não recomendada nos dias atuais por questões de otimização;</li>
       <li><b>let</b>: Forma mais utilizada para a declaração de uma variável nos dias de hoje;</li>
-      <li><b>const</b>: Declara uma constante, ou seja, seu valor não pode ser alterado após ser atribuído.</li>
+      <li><b>const</b>: Declara uma constante, ou seja, seu valor não pode ser alterado após a primeira atribuição.</li>
     </ul>
+
+```javascript
+// - Exemplos de declarações utilizando os três tipos:
+
+var exemplo_var=0;
+let exemplo_let="Exemplo";
+const EXEMPLO_CONST=true 
+```
 
   
 
