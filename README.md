@@ -49,8 +49,19 @@
 ```javascript
 // - Para comentários em uma única linha de código
 
-/* Para comentários em múltiplas linhas */
+/* - Para comentários em múltiplas linhas */
 ```
+
+<h2 align="center">Declarações</h2>
+  <h3>Tipos de declarações</h3>
+    <p>
+      Existem três tipos de declarações no JavaScript, sendo elas:
+    </p>
+    <ul>
+      <li><b>var</b>: Forma tradicional de se declarar uma variável, mas não recomendada nos dias atuais por questões de otimização;</li>
+      <li><b>let</b>: Forma mais utilizada para a declaração de uma variável nos dias de hoje;</li>
+      <li><b>const</b>: Declara uma constante, ou seja, seu valor não pode ser alterado após ser atribuído.</li>
+    </ul>
 
   
 
