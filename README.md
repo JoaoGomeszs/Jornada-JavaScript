@@ -52,7 +52,7 @@
 /* - Para comentários em múltiplas linhas */
 ```
 
-<h3>Hello, World!</h3>
+<h3>"Hello, World!"</h3>
   <p>
     Ao aprender uma nova linguagem de programação, o "Hello, World!", ou "Olá, Mundo!" é um primeiro passo extremamente importante!<br><br>
     O "Hello, World!" se refere a um programa que possui a simples função de exibir uma mensagem para o usuário, e pode ser feito no JavaScript de algumas formas, como por exemplo:
