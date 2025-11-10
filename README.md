@@ -2,8 +2,8 @@
 <div align="center" display="flex">
 <div>
   <strong>"Oi eu sou o João"</strong>
-  <img width="300px" align="center" src="./assets/to-readme/pixelart-eu.png">
-  <img width="360px" align="center" src="./assets/to-readme/mew - Editado.png">
+  <img width="200px" align="center" src="./assets/to-readme/pixelart-eu.png">
+  <img width="260px" align="center" src="./assets/to-readme/mew - Editado.png">
   <strong>"Oi eu sou o Nan"</strong>
 </div>
   
