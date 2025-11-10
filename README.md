@@ -100,7 +100,7 @@ const EXEMPLO_CONST=true;
 Em JavaScript, existem sete tipos primitivos:</p>
 <ol>
   <li>
-  STRING (Cadeia de Caracteres) 📝 <br>
+  <b>STRING</b> (Cadeia de Caracteres) 📝 <br>
   Representa dados textuais.
   São criados usando aspas simples (' '), aspas duplas (" ") ou template literals (crases `).
 
@@ -110,7 +110,7 @@ Exemplo:
 ```
   </li>
     <li>
-  NUMBER (Número) 🔢<br>
+  <b>NUMBER</b> (Número) 🔢<br>
   Representa tanto números inteiros quanto números de ponto flutuante (decimais).
   Diferente de outras linguagens, não há distinção entre inteiros e decimais; todos são tratados como number.
   Inclui valores especiais como Infinity, -Infinity e NaN (Not a Number).
@@ -121,7 +121,7 @@ Exemplo:
 ```
   </li>
   <li>
-  BIGINT (Número Grande) 🐘<br>
+  <b>BIGINT</b> (Número Grande) 🐘<br>
   Introduzido mais recentemente, é usado para representar números inteiros com precisão arbitrária, que são muito grandes para serem representados com segurança pelo tipo number.
   São criados adicionando um n no final do número inteiro.
 
@@ -131,7 +131,7 @@ Exemplo:
 ```
   </li>
   <li>
-  BOOLEAN (Booleano) ✅<br>
+  <b>BOOLEAN</b> (Booleano) ✅<br>
   Representa um valor lógico, podendo ser apenas true (verdadeiro) ou false (falso).
   Usado principalmente em estruturas de controle de fluxo (como if e while).
 
@@ -146,7 +146,7 @@ Exemplo:
       
   ```
   </li>
-  UNDEFINED (Indefinido) ❓<br>
+  <b>UNDEFINED</b> (Indefinido) ❓<br>
   É o valor que uma variável tem por padrão quando ela é declarada, mas não recebe um valor explicitamente.
   Significa que a variável existe, mas ainda não foi inicializada.
   
@@ -157,7 +157,7 @@ Exemplo:
   ```
   </li>
   </li>
-  NULL (Nulo) 🕳️<br>
+  <b>NULL</b> (Nulo) 🕳️<br>
   Representa a ausência intencional de qualquer valor de objeto ou valor.
   Diferente de undefined, é um valor que precisa ser atribuído explicitamente pelo programador para indicar que algo deve ser vazio.
 
@@ -167,7 +167,7 @@ Exemplo:
   ```
   </li>
   </li>
-  SYMBOL (Símbolo) ⚛️<br>
+  <b>SYMBOL</b> (Símbolo) ⚛️<br>
   Introduzido no ES6, é um tipo primitivo imutável e único.
   Geralmente usado como chaves de propriedades de objetos para garantir que a chave não entre em conflito com outras chaves (propriedades ocultas).
   
