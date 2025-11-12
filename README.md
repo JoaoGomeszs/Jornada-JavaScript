@@ -15,9 +15,24 @@
   Jornada JavaScript nada mais é que uma forma pensada por mim para que eu possa aprender essa linguagem, mas também uma forma de ajudar outras pessoas que estão na mesma posição em que eu estou, um estudante de tecnologia que quer evoluir nesse seguimento.
 </p>
 <br>
-<br>
-<br>
+<details>
+<summary>Tabela de conteúdos (Clique para mostrar)</summary>
+
+- [Boas práticas](#boas-práticas)
+    - [Quando usar const e let?](#quando-usar-const-e-let)
+    - [Nomes de variáveis claros (sem adivinhação)](#nomes-de-variáveis-claros-sem-adivinhação)
+    - [Declarar o TIPO da variável](#declarar-o-tipo-da-variável)
+- [Sintaxe básica](#sintaxe-básica)
+    - [Caracteres](#caracteres)
+    - [Comentários](#comentários)
+    - ["Hello, World!"](#hello-world)
+- [Declarações](#declarações)
+    - [Tipos de declarações](#tipos-de-declarações)
+- [Tipos Primitivos e de referência](#tipos-primitivos-e-de-referência)
+    - [O que são tipos primitivos?](#o-que-são-tipos-primitivos)
+</details>
 <div>
+<br>
 <h2 align="center">Boas práticas</h2>
 <p align="center"><img width="250px" src="./assets/to-readme/gengar-boaspraticas.gif"></p>
 <h3>Quando usar const e let?</h3>
