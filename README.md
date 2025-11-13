@@ -40,14 +40,37 @@
   <li>Use const por padrão. Indica intenção de não reatribuir a referência. Isso ajuda o motor e quem lê o código.</li>
   <li>Use let apenas quando a variável será reatribuída (contador de loop, acumuladores, flags).</li>
 </ul>
-  <img width="600px" src="./assets/to-readme/code-print/const-let.png">
+  
+```javascript
+// UTILIZAR CONST APENAS QUANDO O VALOR NÃO SERÁ REATRIBUÍDO
+const API_URL = '/v1/users';
+let retries = 0;
+while (retries < 3){ retries++; }
+// Regra prática: Comece com const. Se precisar reatribuir, troque para let. Evite var.
+```
+
 <h3>Nomes de variáveis claros (sem adivinhação)</h3>
   <ul>
     <li>Os nomes devem fazer sentido com o contexto</li>
     <li>Booleanos como perguntas (valido , aErro)</li>
     <li>Evite abreviações internas (a não ser padrões amplos como id, url)</li>
   </ul>
-  <img width="700px"  src="./assets/to-readme/code-print/nome-claro.png">
+
+```javascript
+// Nomes de variáveis claros (sem advinhação)
+// Exemplo BOM
+let idade = 20;
+const diaDoAniversario = 7;
+console.log("João tem"+idade+" anos e faz aniversário no dia "+diaDoAniversario)
+
+// Exemplo RUIM
+let i = 20;
+const d = 7;
+console.log("João tem"+i+" anos e faz aniversário no dia"+d)
+// Apenas o dono do código conseguirá entender o que seria essa variável "i" e "d",
+// Em contextos pequenos como esse, não é visto como um grande problema, mas em contextos maiores uma variável PRECISA ter um nome que faça sentido.
+```
+
   <h3>Declarar o TIPO da variável</h3>
   <p>JavaScript puro é uma linguagem de tipagem dinâmica e fraca, o que significa que não exige a declaração explícita do tipo da variável. O tipo é inferido e pode mudar durante a execução do código, todavia, declarar o tipo da variável tem uma série de benefícios:</p>
   <ul>
